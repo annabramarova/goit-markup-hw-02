@@ -1,5 +1,127 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-second-color: #000000;
+  --white-color: #ffffff;
+  --background-hero-footer: #2f303a;
+  --button-background: #f5f4fa;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  background-attachment: ;
-  color: ;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+
+.logo {
+  text-decoration: none;
+}
+.logo-first-part {
+  font-family: "Raleway", sans-serif;
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-second-part {
+  font-family: "Raleway", sans-serif;
+  color: var(--logo-second-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site nav*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link .current {
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--background-hero-footer);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.works .title {
+  color: var(--title-text-color);
+}
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.team .title {
+  color: var(--title-text-color);
+}
+
+.projects .title {
+  color: var(--title-text-color);
+}
+
+.btn {
+  background-color: var(--button-background);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.btn-secondary {
+  background-color: var(--button-background);
+  color: var(--title-text-color);
+}
+
+.footer {
+  background-color: var(--background-hero-footer);
 }
