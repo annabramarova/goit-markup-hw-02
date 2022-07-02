@@ -175,35 +175,31 @@ body {
   letter-spacing: 0.03em;
 }
 
-.btn {
+.button {
   font-family: inherit;
   cursor: pointer;
 }
 
-.btn-portfolio {
+.button-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--button-background);
   color: var(--title-text-color);
 }
 
-.btn-portfolio:hover,
-.btn-portfolio:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-
-.btn-main {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+.button-portfolio:hover,
+.button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
