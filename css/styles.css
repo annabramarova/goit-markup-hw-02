@@ -178,18 +178,30 @@ body {
   cursor: pointer;
 }
 
-.btn-primary {
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--button-background);
   color: var(--title-text-color);
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
-.btn-secondary {
+.btn-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--white-color);
 }
