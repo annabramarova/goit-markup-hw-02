@@ -19,7 +19,7 @@ body {
 .logo {
   text-decoration: none;
 }
-.logo-first-part {
+.logo-first {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -28,7 +28,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-second-part {
+.logo-second {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -37,7 +37,7 @@ body {
   color: var(--logo-second-color);
 }
 
-.logo-second-footer {
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -200,7 +200,7 @@ body {
   color: var(--white-color);
 }
 
-.contacts-footer-list .link {
+.footer-list .link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -209,7 +209,7 @@ body {
   text-decoration: none;
 }
 
-.contacts-footer-list .link:hover,
-.contacts-footer-list .link:focus {
+.footer-list .link:hover,
+.footer-list .link:focus {
   color: var(--accent-color);
 }
