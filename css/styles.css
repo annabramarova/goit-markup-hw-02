@@ -7,6 +7,7 @@
   --background-hero-footer: #2f303a;
   --button-background: #f5f4fa;
   --footer-contacts: rgba(255, 255, 255, 0.6);
+  --main-button-hover: #118ce8;
 }
 
 body {
@@ -125,6 +126,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.team {
+  background-color: var(--button-background);
+}
+
 .team-list .title {
   font-weight: 500;
   font-size: 16px;
@@ -145,6 +150,10 @@ body {
   color: var(--title-text-color);
 }
 
+.projects-list .link {
+  text-decoration: none;
+}
+
 .projects-list .title {
   font-weight: 700;
   font-size: 18px;
@@ -157,6 +166,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 .button {
@@ -171,6 +181,11 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+
+.button-main:hover,
+.button-main:focus {
+  background-color: var(--main-button-hover);
 }
 
 .button-portfolio {
